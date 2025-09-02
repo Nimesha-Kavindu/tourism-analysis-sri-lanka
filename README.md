@@ -16,3 +16,30 @@ We apply probability distributions, confidence intervals, hypothesis testing, co
 ---
 
 ## 📂 Repository Structure
+sri-lanka-tourism-stats/
+│
+├── README.md # Overview, objectives, instructions
+├── LICENSE # MIT License
+├── .gitignore # Ignore unnecessary files
+├── requirements.txt # Python dependencies
+│
+├── data/
+│ ├── raw/ # Original SLTDA datasets (not tracked in Git)
+│ └── processed/ # Cleaned datasets
+│
+├── src/
+│ ├── eda.ipynb # Exploratory analysis
+│ ├── models.ipynb # Regression & forecasting
+│ └── utils.py # Helper functions
+│
+├── reports/
+│ ├── paper/
+│ │ ├── main.tex # LaTeX report
+│ │ ├── refs.bib # References
+│ │ └── figs/ # Report figures
+│ └── presentation/
+│ ├── slides.tex # Beamer slides (or PPTX)
+│ └── figs/ # Slide figures
+│
+├── notebooks/ # Sandbox/experiments
+│ └── data_exploration.ipynb
