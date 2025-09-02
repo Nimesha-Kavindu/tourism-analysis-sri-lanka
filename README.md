@@ -22,28 +22,28 @@ sri-lanka-tourism-stats/</br>
 ├── 📄 .gitignore # Git ignore rules</br>
 ├── 📄 requirements.txt # Python dependencies</br>
 │</br>
-├── 📂 data/ # Datasets
-│ ├── 📂 raw/ # Original SLTDA datasets (keep untouched)
-│ └── 📂 processed/ # Cleaned & transformed datasets
-│
-├── 📂 src/ # Source code
-│ ├── 📓 eda.ipynb # Exploratory data analysis
-│ ├── 📓 models.ipynb # Regression & forecasting
-│ └── 🛠️ utils.py # Helper functions
-│
-├── 📂 reports/ # Reports & presentations
-│ ├── 📂 paper/ # Final paper
-│ │ ├── 📄 main.tex # LaTeX main file
-│ │ ├── 📄 refs.bib # References
-│ │ └── 📂 figs/ # Figures for paper
-│ └── 📂 presentation/ # Slides
-│ ├── 📄 slides.tex # Beamer slides (or PPTX)
-│ └── 📂 figs/ # Figures for slides
-│
-├── 📂 notebooks/ # Experimental Jupyter notebooks
-│ └── 📓 data_exploration.ipynb
-│
-└── 📂 docs/ # (Optional) Extra documentation
+├── 📂 data/ # Datasets</br>
+│ ├── 📂 raw/ # Original SLTDA datasets (keep untouched)</br>
+│ └── 📂 processed/ # Cleaned & transformed datasets</br>
+│</br>
+├── 📂 src/ # Source code</br>
+│ ├── 📓 eda.ipynb # Exploratory data analysis</br>
+│ ├── 📓 models.ipynb # Regression & forecasting</br>
+│ └── 🛠️ utils.py # Helper functions</br>
+│</br>
+├── 📂 reports/ # Reports & presentations</br>
+│ ├── 📂 paper/ # Final paper</br>
+│ │ ├── 📄 main.tex # LaTeX main file</br>
+│ │ ├── 📄 refs.bib # References</br>
+│ │ └── 📂 figs/ # Figures for paper</br>
+│ └── 📂 presentation/ # Slides</br>
+│ ├── 📄 slides.tex # Beamer slides (or PPTX)</br>
+│ └── 📂 figs/ # Figures for slides</br>
+│</br>
+├── 📂 notebooks/ # Experimental Jupyter notebooks</br>
+│ └── 📓 data_exploration.ipynb</br>
+│</br>
+└── 📂 docs/ # (Optional) Extra documentation</br>
 
 ---
 
