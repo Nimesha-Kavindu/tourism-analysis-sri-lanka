@@ -43,3 +43,28 @@ sri-lanka-tourism-stats/
 │
 ├── notebooks/ # Sandbox/experiments
 │ └── data_exploration.ipynb
+
+
+---
+
+## 📊 Data Source
+- **Sri Lanka Tourism Development Authority Annual Reports**  
+  Website: [https://www.sltda.gov.lk/](https://www.sltda.gov.lk/)  
+
+Data includes:
+- Tourist arrivals (monthly/annual)
+- Tourism revenue
+- Average length of stay
+- Daily expenditure
+- Source market distribution
+- Flight and accommodation capacity
+- Policy changes/events
+
+---
+
+## ⚙️ Installation & Usage
+Clone the repository:
+```bash
+git clone https://github.com/YourUsername/sri-lanka-tourism-stats.git
+cd sri-lanka-tourism-stats
+
