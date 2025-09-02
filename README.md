@@ -16,34 +16,34 @@ We apply probability distributions, confidence intervals, hypothesis testing, co
 ---
 
 ## 📂 Repository Structure
-sri-lanka-tourism-stats/
+sri-lanka-tourism-stats/</br>
+├── 📄 README.md # Project overview & instructions</br>
+├── 📄 LICENSE # License (MIT)</br>
+├── 📄 .gitignore # Git ignore rules</br>
+├── 📄 requirements.txt # Python dependencies</br>
+│</br>
+├── 📂 data/ # Datasets
+│ ├── 📂 raw/ # Original SLTDA datasets (keep untouched)
+│ └── 📂 processed/ # Cleaned & transformed datasets
 │
-├── README.md # Overview, objectives, instructions
-├── LICENSE # MIT License
-├── .gitignore # Ignore unnecessary files
-├── requirements.txt # Python dependencies
+├── 📂 src/ # Source code
+│ ├── 📓 eda.ipynb # Exploratory data analysis
+│ ├── 📓 models.ipynb # Regression & forecasting
+│ └── 🛠️ utils.py # Helper functions
 │
-├── data/
-│ ├── raw/ # Original SLTDA datasets (not tracked in Git)
-│ └── processed/ # Cleaned datasets
+├── 📂 reports/ # Reports & presentations
+│ ├── 📂 paper/ # Final paper
+│ │ ├── 📄 main.tex # LaTeX main file
+│ │ ├── 📄 refs.bib # References
+│ │ └── 📂 figs/ # Figures for paper
+│ └── 📂 presentation/ # Slides
+│ ├── 📄 slides.tex # Beamer slides (or PPTX)
+│ └── 📂 figs/ # Figures for slides
 │
-├── src/
-│ ├── eda.ipynb # Exploratory analysis
-│ ├── models.ipynb # Regression & forecasting
-│ └── utils.py # Helper functions
+├── 📂 notebooks/ # Experimental Jupyter notebooks
+│ └── 📓 data_exploration.ipynb
 │
-├── reports/
-│ ├── paper/
-│ │ ├── main.tex # LaTeX report
-│ │ ├── refs.bib # References
-│ │ └── figs/ # Report figures
-│ └── presentation/
-│ ├── slides.tex # Beamer slides (or PPTX)
-│ └── figs/ # Slide figures
-│
-├── notebooks/ # Sandbox/experiments
-│ └── data_exploration.ipynb
-
+└── 📂 docs/ # (Optional) Extra documentation
 
 ---
 
