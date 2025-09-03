@@ -62,9 +62,3 @@ Data includes:
 
 ---
 
-## ⚙️ Installation & Usage
-Clone the repository:
-```bash
-git clone https://github.com/YourUsername/sri-lanka-tourism-stats.git
-cd sri-lanka-tourism-stats
-
